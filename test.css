@@ -1,110 +1,102 @@
 body {
   font-family: 'Anaheim';
-  font-size: 1.2em;
+  width: 500px;
+  border: 1px solid rgba(163, 162, 162, 0.6);
+  border-radius: 5%;
+  box-shadow: 10px 10px rgba(3, 3, 3, 0.8);
+  margin: 3px auto;
+  background-color: #fcc205;
 }
 
-#outside {
-  background-color: lightgoldenrodyellow;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-h1 {
-  font-size: 1.5em;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-form {
-  /* Just to center the form on the page */
-  margin: 0 auto;
-  width: 70%;
-  /* To see the limits of the form */
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  
-}
-#survey-form {
+.main {
+  color: #020202;
   background-color: white;
+  width: 94%;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  padding-left: 3%;
 }
 
-fieldset { 
-  border:1px solid lightgray;
-  margin: 10px;
- }
-
-legend {
-  font-weight: 700;
+h3 {
+  font-size: 36px;
+  text-align: right;
+  margin: 20px 10px 0px 0px;
 }
 
-#number {
-  width: 150px;
+.logo {
+  width: 30%;
+  margin-top: 20px;
+  border-radius: 5%;
+  background-image: url(logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-
-div + div {
-  margin-top: 1em;
-  }
-
-/* label {
-  /* To make sure that all label have the same size and are properly align */
-  /* display: inline-block; */
-  /* width: 80px; */
-  /* text-align: right; */
- */
-
-input, textarea {
-  /* To make sure that all text field have the same font settings
-     By default, textarea are set with a monospace font */
-  /* font: 1em sans-serif; */
-
-  /* To give the same size to all text field */
-  width: 200px;
-
-/*   -moz-box-sizing: border-box;
-       box-sizing: border-box; */
-
-  /* To harmonize the look & feel of text field border */
-  border: 1px solid #999;
+header {
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
 }
-
-input:focus, textarea:focus {
-  /* To give a little highligh on active elements */
-  border-color: OrangeRed;
+.after-header{
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 3%;
+  background-image: url(header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-textarea {
-  /* To properly align multiline text field with their label */
-  vertical-align: top;
-
-  /* To give enough room to type some text */
-  height: 5em;
-
-  /* To allow users to resize any textarea vertically
-     It works only on Chrome, Firefox and Safari */
-  resize: vertical;
-}
-
-.button {
-  /* To position the buttons to the same position of the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  margin: .5em;
-  font-size: 1em;
-  text-transform: capitalize;
-  background-color: red;
+.cont {
+  background-color: rgba(3, 3, 3, 0.6);
+  width: 100%;
+  margin: 0 auto;
   color: white;
-  border: none;
-  padding: 5px;
-  border-radius: 2px;
-  
+  text-align: center;
+  height: 100%;
+  font-size: 40px;
+}
+.first {
+  background-color: rgb(214, 216, 218);
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 3%;
+}
+.second {
+  height: 200px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#submitbutton {
-  display: flex; 
-  justify-content: center;
+.secondone{
+  background-color: #fc5305;
+  height: 100%;
+  width: 49%;
+  border-radius: 5%;
 }
 
+img{
+  color: black;
+}
+
+.secondtwo {
+  background-color: red;
+  height: 100%;
+  border-radius: 5%;
+  width: 49%;
+}
+
+footer {
+  color: black;
+  font-size: 18px;
+  width: 96%;
+  border-bottom-right-radius: 30%;
+  padding-left: 3%;
+  margin-left: 2px;
+  margin-bottom: -18px;
+  text-align: center;
+}
